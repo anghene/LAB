@@ -1,0 +1,6 @@
+1. Scrieti o functie care returneaza 1 daca un nr n e prim si 0 in caz contrar; prim (n)
+2. Scrieti o functie care permite schimbarea valorilor a doua variabile, schimb(a,b). 
+Folositi functia pentru a ordona crescator 3 numere reale. ATENTIE Afisarea rezultatului a se face in functie si nu in programul principal.
+3. Scrieti o functie care returmneaza numarul de aparitii ale unui caracter c intr-un text. (strchr())
+4. Rezolvati ecuatia de gr II, folosind o functie de rezolvare ecuatie ( de grad I si II dupa caz).
+5. Scrieti o functie care returneaza textele "pozitiv", "negativ", "nul" dupa semnul unui numar real dat.

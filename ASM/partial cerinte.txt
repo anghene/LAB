@@ -1,0 +1,23 @@
+Grupa 1 jum 1
+
+1. cititi si afisati o tasta 
+2. cititi tasta si daca e cifra sa afisati ca e cifra, daca nu-i cifra sa afisati ca nu-i cifra si daca e asterix sa afisati de cate ori s-au tastat cifre
+
+Grupa 1 jum 2
+
+1. definiti doua mesaje in memorie afisati primul mesaj cand se
+apasa tasta 1 si al doilea knd se apasa tasta 2, repetati procesul pana
+cand se apasa tasta 0.
+2. se citesc 5 caractere afisati numarul de cifre
+
+Grupa 2 - jum 1
+
+1. se citesc doua caractere, determinati care caracter are codul ascii mai mare, afisati caracterul si mesajele ajutatoare corespunzatoare
+2. se citesc caractere pana la intalnirea caracterului * sa se afiseze cea mai mica cifra introdusa
+
+Grupa 2 - jum 2
+
+1. Se citeste un caracter.Sa se afiseze urmatoarele 3 caractere din tabelul ASCI;
+Folositi mesaje ajutatoare.
+2. Se citesc caractere pana la intalnirea caracterului *.Afisati pentru fiecare caracter daca este cifra
+sau nu si la final,numarul de cifre introduse.

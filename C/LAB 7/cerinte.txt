@@ -1,0 +1,18 @@
+1. Ordonati crescator elem unui sir folosind metoda bubble sort, selectie
+2. Calculati max din elem. unei matrice.
+3. Determinati suma, produsul a doua matrice 
+4. Fie matricea a(m,n) atunci b(m,n) este "oglinda lui a"
+B[I,J]= {1, A[I,J]>0, 0, A[I,J]=0, -1 , A[I,J]<0}
+5. Determinati transpusa matricei a.
+6. Sa se bordeze o matrice de tip m,n peste R, cu linia m+1 si coloana n+1 unde
+elem adaugate sunt sumele elem pe linii, respectiv coloane
+EX: 1 5 3 9
+4 7 2 13
+5 12 5 22
+7. Se considera o matrice patratica A de dimensiuni n*n.
+Se cere:
+a-sa se calculeze media aritmetica a elementelor impare a matricei;
+b-suma elementelor matricei situate deasupra diagonalei principale
+c-produsul elem de pe diagonala secundara
+d-numarul elementelor nenule de pe diagonala principala
+8. Transformati o matrice intr-un sir prin parcurgerea pe linii (coloane, spirala,diagonala).

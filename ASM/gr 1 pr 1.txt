@@ -1,0 +1,38 @@
+;Problema 1.definiti doua mesaje in memorie afisati primul mesaj cand se
+apasa tasta 1 si al doilea knd se apasa tasta 2, repetati procesul pana
+cand se apasa tasta 0.
+
+.model small
+.stack
+.data
+message1 db "Ati apasat 1","$"
+message2 db "Ati apasat 2","$"
+.code
+main proc
+citire:
+mov ah,01h
+int 21h
+CMP al,49
+JNE E2
+mov ax,seg message1
+mov ds,ax
+mov ah,09h 
+lea dx,message1
+int 21h
+JMP citire
+E2:
+CMP al,50
+JNE E0
+mov ax,seg message2
+mov ds,ax
+mov ah,09h
+lea dx,message2
+int 21h
+JMP citire
+E0:
+mov ax,4c00h
+int 21h
+main endp
+end main
+
+prima problema

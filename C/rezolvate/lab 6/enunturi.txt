@@ -1,0 +1,13 @@
+1. Suma elem unui sir.
+2. Maximul dintre elem unui sir.
+3. Se da un sir de numere intregi. 
+Formati un alt sir cu numerele prime din primul sir.(folositi functia prim din lab5)
+4. SE da un sir sa determine elemntetle distincte ale sale.
+EX. 1 3 5 4 2 3 1 4
+1 3 5 4 2
+5. Determinati daca un element x apartine unui sir de numere, in caz afirmativ 
+determinati numarul de aparitii.
+6. Formati un sir din primele n numere prime.
+Ex. n=5
+2 3 5 7 11
+7. Calculati media aritm, med geom, media armonica, cmmdc,cmmmc al elem din sir.

@@ -1,0 +1,6 @@
+1. Se da structura Data calendaristica. Functie care compara doua date calendaristice.
+2. Se dau numele, nota, nrdiscipline cu media 10. Daca se dau n studenti, sa se 
+determine primii k studenti in ordine descrescatoare dupa note, in caza de egalitate, 
+descrescatoare dupa numarul notelor de 10.
+3. Scrieti intr-un fisier toate articolele introduse de la tastatura, cu structura
+den, pret, cant, unit_mas, prettotal=pret*cant , TVA=prettotal*1.19.

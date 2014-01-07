@@ -1,0 +1,10 @@
+probleme de rezolvat
+1. Afisati toti divizorii unui numar natural
+2. Suma cecuri folosind while/for
+3. Sa se precizeze care din n numere date sunt pare.
+4. CAlculati n!
+5. s=1/(1*2)+1/(2*3)+ ... +1/(n*(n+1))
+6. Ce mai mare divizor al unui nr natural.
+7. Cate cifre 0 are un numar natural n
+8. Suma cifrelor unui nr natural
+9. Se da un sir de n numere reale. Determinati maximul.

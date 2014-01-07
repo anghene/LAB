@@ -1,0 +1,58 @@
+;problema 2
+
+.model small
+.stack
+.data
+m1 db "-Cifra",10,"$"
+m2 db "-NonCifra",10,"$"
+.code
+
+mov bl,48
+
+repeta:
+mov ah,01h
+int 21h
+
+cmp al,48
+jge cmp9
+jl asterix
+
+cmp al,97
+jge cmpz
+jl asterix
+
+cmp9:
+cmp al,57
+jle afc
+
+cmpz:
+cmp al,112
+jle afnc
+
+afc:
+mov ax,seg m1
+mov ds,ax
+mov ah,09h
+lea dx,m1
+int 21h
+inc bl
+jmp repeta
+
+afnc:
+mov ax,seg m2
+mov ds,ax
+mov ah,09h
+lea dx,m2
+int 21h
+jmp repeta
+
+asterix:
+mov dl,bl
+mov ah,02h
+int 21h
+jmp iesire
+
+iesire:
+mov ah,4ch
+int 21h
+end

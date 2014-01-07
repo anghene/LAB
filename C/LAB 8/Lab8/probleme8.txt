@@ -1,0 +1,32 @@
+1.Se da un vector A cu n elem nr reale si P,Q doua numere reale. Sa se scrie un program
+care copiaza intr-un vector B toate elem din A din intervalul (p,q) in ordine crescatoare.
+       EX:A=(12,-4,9,7,-5,31,-74,515,-33,-8)
+          P=-10   Q=9
+          B=(-8,-5,-4, 7)
+2. Sa se scrie un program care citeste cele n nr care compun vectorul A,cele m
+nr reale care compun vectorul B.Sa se afiseze pe ecran cate dintre elem lui A
+sunt strict mai mici decat elem lui B.
+3. Sa se mute toate elem nule la sfarsitul unui vector (fara a folosi auxiliari).
+    EX:1 0 2 0 0 3 0 0
+       i=1  1 0 2 0 0 3 0 0
+       i=2  1 2 0 0 3 0 0 0
+       i=3  1 2 0 3 0 0 0 0
+       i=4  1 2 3 0 0 0 0 0
+4. Turist masoara cote succesive
+rampa- o succesiune de cote strict crescatoare.
+panta- o succesiune de cote strict descrescatoare.
+pisc- o cota a carei vecini sunt strict mai mici
+vale- o cota a carei vecini sunt strict mai mari
+podis- o succesiune de cote egale.
+determinati>
+a. cea mai lunga rampa, panta
+b. cel mai inalt pisc
+c. cea mai adanca vale
+d. cel mai lung podis.
+
+Ex.	1 3 5 2 3 3 3 4 2 5 6 8 9 9 9 3 2 4
+
+5. suma, dif, compararea numere mari
+6. Determinati o zona dreptunghiulara de arie maxima, dintr-o matrice,
+cu proprietatea ca toate elementele sale sunt egale.
+7. Varf de munte.

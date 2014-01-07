@@ -1,0 +1,1 @@
+http://alumni.cs.ucr.edu/~pdiloren/C++_Pointers/

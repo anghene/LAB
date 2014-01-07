@@ -1,0 +1,32 @@
+;;Problema 2.se citesc 5 caractere afisati numarul de cifre
+;exercitiul 2
+.model small
+.stack
+.data
+.code
+main proc
+mov bl,30h
+mov cx,5
+citire:
+mov ah,01h
+int 21h
+cmp al,30h
+jl citire
+je incrementare
+jg comparare
+incrementare: inc bl
+jmp continuare
+comparare:
+cmp al,39h
+je incrementare
+jl incrementare
+jg continuare
+continuare:
+loop citire
+mov dl,bl
+mov ah,02h
+int 21h
+mov ah,4ch
+int 21h
+main endp
+end main
