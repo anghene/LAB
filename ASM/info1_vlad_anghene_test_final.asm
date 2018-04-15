@@ -1,4 +1,4 @@
-;info1_vlad_anghene_test_final.asm
+;info1_test_final.asm
 ; Cerinta: Se citeste un numar binar, sa se afiseze corespondentul lui zecimal
 
 .model small
